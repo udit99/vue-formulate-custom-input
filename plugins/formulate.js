@@ -8,7 +8,7 @@ Vue.use(VueFormulate, {
     library: {
         testcomponent: {
             classification: 'text',
-            component: 'TestComponent'
+            component: 'TestComponent1'
         }
     }
 })

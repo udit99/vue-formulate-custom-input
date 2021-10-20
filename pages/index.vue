@@ -1,7 +1,7 @@
 <template>
 <div>
   <FormulateInput
-  type="autocomplete"
+  type="testcomponent"
   name="user"
   label="Search for a user"
   :options="[
