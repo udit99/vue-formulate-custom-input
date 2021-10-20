@@ -1,32 +1,5 @@
 <template>
-  <div
-    :class="`formulate-input-element formulate-input-element--${context.class}`"
-    :data-type="context.type"
-  >
-    <input
-      type="text"
-      v-model="context.model"
-      v-bind="context.attributes"
-      autocomplete="no"
-      @keydown.enter.prevent="context.model = selection.label"
-      @keydown.down.prevent="increment"
-      @keydown.up.prevent="decrement"
-      @blur="context.blurHandler"
-    >
-    <ul
-      v-if="filteredOptions.length"
-      class="formulate-input-dropdown"
-    >
-      <li
-        v-for="(option, index) in filteredOptions"
-        :key="option.value"
-        v-text="option.label"
-        :data-is-selected="selection && selection.value === option.value"
-        @mouseenter="selectedIndex = index"
-        @click="context.model = selection.label"
-      />
-    </ul>
-  </div>
+  <div>Helo World </div>
 </template>
 
 <script>
